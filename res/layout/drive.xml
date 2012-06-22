@@ -34,21 +34,20 @@
     </TextView>
 
     <TextView
-        android:id="@+id/tvGpsLat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/tvSpeed"
-        android:layout_marginRight="64dp"
-        android:text="Latitude:" />
-
-    <TextView
         android:id="@+id/tvGpsLon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/tvAccuracy"
-        android:layout_alignBottom="@+id/tvAccuracy"
-        android:layout_alignRight="@+id/tvGpsLat"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAccuracy"
+        android:layout_marginTop="27dp"
         android:text="Longitude:" />
+
+    <TextView
+        android:id="@+id/tvGpsLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvGpsLon"
+        android:text="Latitude:" />
 
 </RelativeLayout>
